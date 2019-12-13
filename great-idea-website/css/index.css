@@ -64,3 +64,97 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+.container{
+	width: 80%
+	margin: 0 auto;
+}
+
+.navigation {
+	display: inline-block;
+	width: 80%;
+	margin: 3% 0% 3% 0%;
+}
+
+.navigation a {
+	width: 10%;
+	padding-right: 10%;
+	text-decoration: none;
+	text-align: center;
+}
+
+header .logo {
+	position: relative;	
+	top: 10px;
+}
+
+.hero {
+	width: 100%;
+}
+
+.hero.hero-left, .hero.hero-right {
+	display: inline-block;
+	width: 49%;
+	padding: 3 0 3 0%;
+	text-align: center;
+}
+
+.hero-left .hero-title {
+	font-size: 5em;
+	position: relative;
+	bottom: 50px;
+}
+
+.hero .hero-left span {
+	width: 150px;
+}
+
+.hero .hero-left span a {
+	text-decoration: none;
+	font-size: 1em;
+	color: black;
+	border: 1px solid black;
+	padding: 2%;
+}
+
+.features {
+	width: 100%;
+}
+
+.features .left, .features .right {
+	display: inline-block;
+	width: 49%;
+	padding: 2% 0% 2% 0;
+}
+
+.middle-img {
+	width: 100%;
+	padding: 3% 0% 3% 0%;
+}
+
+.services {
+	width: 100%;
+}
+
+.services .left, .services .middle, .services .right {
+	display: inline-block;
+	width: 33%;
+	padding: 2%
+}
+
+footer {
+	width: 100%;
+	padding: 2% 0% 2% 0%;
+}
+
+footer a, footer .copyright {
+	line-height: 2em;
+}
+
+footer .copyright {
+	text-align: center;
+}
+
+
+
