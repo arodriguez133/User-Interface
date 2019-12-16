@@ -65,96 +65,115 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-
 .container{
-	width: 80%
+	/* border: 1px solid red; */
+	width: 950px;
 	margin: 0 auto;
+	align-items: center;
 }
 
-.navigation {
+
+header nav{
 	display: inline-block;
-	width: 80%;
-	margin: 3% 0% 3% 0%;
+	width: 691px;
+	vertical-align: top;
+	margin-top: 35px;
+	align-items: center;
+	text-align: center;
 }
-
-.navigation a {
-	width: 10%;
-	padding-right: 10%;
+ header nav a{
+	/* border: 1px solid red; */
+	margin-right: 65px;
+	font-size: 14px;
+	color: grey;
 	text-decoration: none;
-	text-align: center;
 }
 
-header .logo {
-	position: relative;	
-	top: 10px;
-}
-
-.hero {
-	width: 100%;
-}
-
-.hero.hero-left, .hero.hero-right {
+ header .logo {
 	display: inline-block;
-	width: 49%;
-	padding: 3 0 3 0%;
-	text-align: center;
-}
+	margin-top: 25px;
+	align-items: center;
+	}
 
-.hero-left .hero-title {
-	font-size: 5em;
-	position: relative;
-	bottom: 50px;
-}
+	.splash-sect{
+		/* border: 1px solid red; */
+	}
 
-.hero .hero-left span {
-	width: 150px;
-}
+	.splash-sect img{
+		margin: 75px 0 75px 200px;
+	}
+	
 
-.hero .hero-left span a {
-	text-decoration: none;
-	font-size: 1em;
-	color: black;
-	border: 1px solid black;
-	padding: 2%;
-}
+	.splash-left{
+		/* border:1px solid red; */
+		display: inline-block;
+		vertical-align: 160px;
+		margin: 0 5px;
+		width: 30%;
+		align-items: center;
+		text-align: center;
+	}
 
-.features {
-	width: 100%;
-}
+	.splash-left a{
+		border: 1px solid black;
+		display: inline-block;
+		text-decoration: none;
+		text-align: center;
+		align-items: center;
+		Color: black;
+		padding: 20px	
+	}
 
-.features .left, .features .right {
-	display: inline-block;
-	width: 49%;
-	padding: 2% 0% 2% 0;
-}
+	h1{
+		/* border: 1px solid red; */
+		margin: 10px auto ;
+		width: 50%;
+		padding: 10px;
+		text-align: center;
+		font-size: 4.0em;
+	}
 
-.middle-img {
-	width: 100%;
-	padding: 3% 0% 3% 0%;
-}
+	section{
+		align-items: center;
+		width: 95%;
+		margin: auto;
+	}
 
-.services {
-	width: 100%;
-}
+	h3 {
+		/* border: 1px solid red; */
+		text-align: center;
+		display: inline-block;
+	  }
+	  
+	  .col-1-container{
+		/* border-top: 1px solid black; */
+		display: inline-block;
+		width: 45%;
+		margin-right: auto;
+		margin: 20px;
+		padding: 20px 0;
+	  }
 
-.services .left, .services .middle, .services .right {
-	display: inline-block;
-	width: 33%;
-	padding: 2%
-}
+	  .midpage{
+		  /* border: 1px solid red; */
+		  display: inline-block;
+		  margin-left: 23px;
+	  }
+	
+	 .col-2-container{
+		display: inline-block;
+		width: 33%;
+		/* margin-left: 10px;  */
+		padding: 30px 0;
+	 } 
 
-footer {
-	width: 100%;
-	padding: 2% 0% 2% 0%;
-}
+	 footer{
+		 padding: 50px;
+	 }
 
-footer a, footer .copyright {
-	line-height: 2em;
-}
-
-footer .copyright {
-	text-align: center;
-}
-
+	 footer a{
+		 line-height: 2;
+	 }
+	  
 
 
